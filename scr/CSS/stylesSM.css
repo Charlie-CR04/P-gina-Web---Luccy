@@ -1,0 +1,101 @@
+/* TITULO */
+h1{
+    padding: 6px;
+}
+.titulo{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: magenta;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra sutil al texto */
+}
+
+/* NAVEGADOR */
+.navegador-principal {
+    text-align: center;
+    background-color: magenta;
+    padding: 20px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navegador-principal ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegador-principal li{
+    display: inline-block; 
+    margin: 0 50px; 
+
+}
+
+.navegador-principal a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.navegador-principal a:hover{
+    background-color:#f86fcf;
+    color: black;
+    border-radius: 10px;
+}
+
+/*TUTULO 2*/
+.titulo2{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: magenta;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra sutil al texto */
+}
+
+.cuerpo{
+    background-color:#f7dbfb
+}
+
+.descripcion{
+    text-align: center;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f86fcf;
+}
+
+.card{
+    background-color: white;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.container{
+    display:flex;
+    justify-content: space-around; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se muevan a la siguiente fila cuando se quedan sin espacio */
+}
+
+footer{
+    background-color: magenta;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
